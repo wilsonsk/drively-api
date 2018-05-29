@@ -21,45 +21,8 @@
 
 		define('MYSQL_USER', 'root');
 		define('MYSQL_PASSWORD', '!kt@ccess');
-
-		// define('GOOGLE_API_KEY', 'AIzaSyBsyyQ4Auuk0uzngRb1_yijMr2V3ZwY1w0');
-
-	/*************** LIVE DEV SETTINGS ****************/
-	/*
-		define('CONTAINER_PATH', '/data/sinsational');
-                define('ADMIN_URL', 'https://test.ikumu.cloud/sinsational/');
-                define('WEBSITE_URL', 'http://www.sinsationalsmile.com');
-
-                define('TEST_EMAIL', 'bjohnson@kanaitek.com');
-                define('TEST_EMAIL_NAME', 'Bjorn Johnson');
-
-                define('MYSQL_USER', 'sinsational_user');
-                define('MYSQL_PASSWORD', 's1nsati0nal');
-								*/
-	/*************** LIVE SETTINGS ****************/
-	/*
-	  define('CONTAINER_PATH', '/data/sinsational-portal');
-		define('ADMIN_URL', 'http://portal.sinsationalsmile.com/console/');
-		define('WEBSITE_URL', 'http://www.sinsationalsmile.com');
-
-		define('TEST_EMAIL', NULL);
-		// define('TEST_EMAIL', 'tjost@kanaitek.com');
-		// define('TEST_EMAIL_NAME', 'Thomas Jost');
-
-		define('MYSQL_USER', 'sinsational_user');
-		define('MYSQL_PASSWORD', 's1nsati0nal');
-	*/
-
-	define('MYSQL_SERVER', 'localhost');
-	define('MYSQL_DB', 'test_drively_api');
-
-	/*************** PERMISSIONS ****************/
-	define('ADMIN', 1);
-	define('SITE_MGR_NO_DELETE', 2);
-	define('IND_REP', 4);
-	define('DEALER', 8);
-	define('DISTRIBUTOR', 16);
-	define('PRACTICE', 32);
+		define('MYSQL_SERVER', 'localhost');
+		define('MYSQL_DB', 'test_drively_api');
 
 	/*************** URL AND PATH SETTINGS ****************/
 	define('SITE_PATH', CONTAINER_PATH.'/sites');
@@ -80,7 +43,7 @@
 	define('SMTP_HOST', 'smtp.gmail.com');
 	define('SMTP_PORT', 465);
 	define('SMTP_NAME', 'Sinsational Smile');
-	define('SMTP_USERNAME', 'notification@iofoundry.com');
+	define('SMTP_USERNAME', 'swilson@kanaitek.com');
 	define('SMTP_PASSWORD', 'ioN0t1fy!');
 	define('SMTP_SECURE', 'ssl');
 	//define('CONTACT_NOTIFY_EMAIL', "info@sinsationalsmile.com"); // CHANGE BEFORE DEPLOYMENT
