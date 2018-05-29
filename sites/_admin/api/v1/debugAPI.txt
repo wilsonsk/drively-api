@@ -1,0 +1,80 @@
+//------------------FILES------------------//
+
+Array
+(
+)
+
+
+
+//------------------SERVER-----------------//
+
+Array
+(
+    [REDIRECT_STATUS] => 200
+    [HTTP_HOST] => ua
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_ACCEPT] => application/json, text/plain, */*
+    [HTTP_ORIGIN] => http://ua:8100
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36
+    [CONTENT_TYPE] => application/json
+    [HTTP_REFERER] => http://ua:8100/
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [SERVER_SIGNATURE] => <address>Apache/2.4.18 (Ubuntu) Server at ua Port 80</address>
+
+    [SERVER_SOFTWARE] => Apache/2.4.18 (Ubuntu)
+    [SERVER_NAME] => ua
+    [SERVER_ADDR] => 192.168.200.219
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => 192.168.200.1
+    [DOCUMENT_ROOT] => /data/
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /data/
+    [SERVER_ADMIN] => webmaster@example.com
+    [SCRIPT_FILENAME] => /data/TEST-drively-api/sites/_admin/api/v1/api.php
+    [REMOTE_PORT] => 59541
+    [REDIRECT_URL] => /TEST-drively-api/sites/_admin/api/v1/getCompanyFromToken
+    [REDIRECT_QUERY_STRING] => request=getCompanyFromToken
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => request=getCompanyFromToken
+    [REQUEST_URI] => /TEST-drively-api/sites/_admin/api/v1/getCompanyFromToken
+    [SCRIPT_NAME] => /TEST-drively-api/sites/_admin/api/v1/api.php
+    [PHP_SELF] => /TEST-drively-api/sites/_admin/api/v1/api.php
+    [REQUEST_TIME_FLOAT] => 1527098561.258
+    [REQUEST_TIME] => 1527098561
+)
+
+
+
+//-----------------REQUEST-----------------//
+
+Array
+(
+    [request] => getCompanyFromToken
+)
+
+
+
+//-------------------GET-------------------//
+
+Array
+(
+    [request] => getCompanyFromToken
+)
+
+
+
+//------------------POST-----------------//
+
+Array
+(
+)
+
+
+
+//----------------RAW POST-----------------//
+
